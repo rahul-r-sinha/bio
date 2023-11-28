@@ -1,174 +1,569 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rahul R. Sinha | Research</title>
-  <link rel="stylesheet" href="./style/main.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul R. Sinha | Research</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 
 <body>
-    
-  <nav id="publication_top" class='flex w-full py-2 justify-center'>
-    <div class="flex w-3/5 py-4 px-2 bg-[#00917b] border-b-2 border-emerald-700 rounded-t-lg rounded-sm shadow-md">
-      <div class="flex grow items-center">
-        <p class='text-xl text-white leading-3 text-center font-light'>Rahul Ranjan Sinha</p>
-      </div>
-      <div class="flex justify-self-end">
-        <a class='mx-4 text-white text-md font-normal hover:text-emerald-300' href='./index.html'>About</a>
-        <a class='mx-4 text-white text-md font-normal hover:text-emerald-300' href='./research.html'>Research</a>
-        <a class='mx-4 text-blue-300 text-md font-semibold underline' href='./publication.html'>Publication</a>
-        <a class='mx-4 text-white text-md font-normal hover:text-emerald-300' href="./media/CV.pdf" download="Rahul_CV.pdf" target="_blank">CV</a>
-      </div>
-    </div>
-  </nav>
 
-  <div class="flex justify-center">
-    <div class="w-3/5 leading-7 font-light text-center border-t border-black ">
-
-        <div class="justify-start">
-            <a class="flex mt-5 ml-8 underline justify-start text-blue-700 hover:text-blue-300" href='#articles'>Articles/Blogs/Op-Eds</p>
-            <a class="flex mt-3 mb-5 ml-8 underline justify-start text-blue-700 hover:text-blue-300" href='#reports'>Reports</a>
-        </div>
-        <div id="articles" class="justify-start ml-4 border-t border-slate-300">
-            <div class="  rounded-t-lg rounded-sm  p-2 mt-4 bg-slate-50  border-b-2 border-slate-300 shadow-sm">
-                <p class="text-4xl text-left pl-4 font-semibold text-slate-500">Articles/Blogs/Op-Eds</p>
+    <div style="z-index: 50;" class="flex md:hidden bg-white border-b border-slate-400 z-50 opacity-100">
+        <div class="flex grow bg-white items-center">
+            <div class="flex grow gap-2 ml-2">
+                <a href="mailto:rahul090887@gmail.com" target="_blank">
+                    <span class="hover:fill-emerald-500">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z">
+                            </path>
+                        </svg>
+                    </span>
+                    </button>
+                    <a href="https://twitter.com" target="_blank">
+                        <span class="hover:fill-emerald-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rahulranjansinha/" target="_blank">
+                        <span class="hover:fill-emerald-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                                <path
+                                    d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
             </div>
-            <table class="mt-4 table-auto border-separate border-spacing-3">
-                <tbody>
-                    <tr>
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">FinDev Gateway</td>
-                        <td class="pl-4 underline  text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://www.findevgateway.org/blog/2023/08/agent-gender-matters-but-how-to-recruit-and-retain-women-agents">Agent Gender Matters, but How to Recruit and Retain Women Agents?</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">FinDev Gateway</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://www.findevgateway.org/blog/2021/03/women-changemakers-improve-access-water-and-sanitation">Women As Changemakers Improve Access to Water and Sanitation</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">FinDev Gateway</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://findevgateway.org/blog/2018/nov/three-steps-closing-india%E2%80%99s-gender-gap-digital-financial-services">Three Steps for Closing India's Gender Gap in Digital Financial Services</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">FinDev Gateway</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://www.microfinancegateway.org/blog/2018/may/grappling-india%E2%80%99s-national-biometric-based-payments-system">Grappling with India's National Biometric-Based Payments System</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Next Billion</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://nextbillion.net/augmented-reality-financial-literacy-innovative-approach-immersive-customer-education/">Augmented Reality for Financial Literacy: An Innovative Approach to Delivering Immersive Customer Education</a>
-                        </td>
-                    </tr>
-
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Business World</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="http://www.businessworld.in/article/A-Social-Algorithm-Tool-Gives-Covid-19-Relief-To-India-s-Informal-Sector/15-06-2020-287336/">A Social Algorithm Tool Gives Covid-19 Relief To India's Informal Sector </a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Medium</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://medium.com/@rbhattacharyya_52466/using-machine-and-human-intelligence-for-covid-response-three-lessons-for-future-programming-39806a9603fb">Using Machine and Human Intelligence for COVID Response: Three lessons for future programming</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">India Development Review</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="http://idronline.org/women-benefit-bottom-line-mfis/">Increasing the profitability of Microfinance Institutions in India</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Policy Circle</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://www.policycircle.org/life/vaccine-hesitancy-in-rural-india/">Vaccine hesitancy in rural areas threatens India's Covid-19 response</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Policy Circle</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://www.policycircle.org/life/women-in-farmer-producer-organisation/">The invisible women in India's farmer producer organisations</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Grameen Foundation USA</td>
-                        <td class="pl-4 text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex"><span class="whitespace-nowrap">Case Study:&nbsp;&nbsp; </span><a class="underline leading-5" href="https://grameenfoundation.org/documents/Mirjapur-Jaiv-Urja-Case-Study.pdf">Surviving heat waves through climate resilient biofortified wheat varieties -  The success story of Mirjapur Jaiv Urja Farmers Producers Company</a></div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
-        <div id="reports" class="justify-start ml-4 mt-4 border-t border-slate-300">
-            <div class="  rounded-t-lg rounded-sm  p-2 mt-6 bg-slate-50  border-b-2 border-slate-300 shadow-sm">
-                <p class="text-4xl text-left pl-4 font-semibold text-slate-500">Reports</p>
-            </div>
-            <table class="mt-4 table-auto border-separate border-spacing-3">
-                <tbody>
-                    <tr>
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">UNCDF</td>
-                        <td class="pl-4 underline  text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://erc.undp.org/evaluation/evaluations/detail/9950">Final Evaluation Report of Phase II of the Pacific Financial Inclusion Programme</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Grameen Foundation USA</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://grameenfoundation.org/documents/MANDI_Evaluation-Brief_Final-1.pdf">Evaluation Brief for Final Evaluation of MANDI program funded by the Walmart Foundation</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">BMGF</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://grameenfoundation.org/partners/resources/beads-endline-report">Impact evaluation of BEADS project in India</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Dvara Research</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://www.dvara.com/research/conference2021/wp-content/uploads/2022/07/Grameen-Foundation.pdf">Impact of COVID-19 on preferences of household portfolios: Case of low-income migrant households</a>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">BMGF</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://grameenfoundation.in/wp-content/uploads/2022/07/BEADS-Baseline-Study_06072022_1.pdf">Report on BCNM Experiments Demonstrating Scale Agent Network Diagnostic Study</a>
-                        </td>
-                    </tr>
-
-                    <tr class="mb-20 ">
-                        <td class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">Grameen Foundation USA</td>
-                        <td class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
-                            <a href="https://grameenfoundation.org/partners/resources/womenlink-phase-ii-final-report">WomenLink Phase II Final Report</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="border-b border-slate-300 mt-4"></div>
+        <div style="z-index: 50;" class="flex bg-white items-center">
+            <label class="" for="check" style="transform: scale(0.3);">
+                <input type="checkbox" id="check" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
         </div>
     </div>
+    <nav id="device_menu" class="devicemenu">
+        <div class="flex h-8 items-center justify-end">
+            <a class='text-emerald-500' href='./index.html'>About</a>
+        </div>
+        <div class="flex h-8 items-center justify-end">
+            <a class='hover:text-emerald-300' href='./research.html'>Research</a>
+        </div>
+        <div class="flex h-8 items-center justify-end z-10">
+            <a class='' href='./publication.html'>Publication</a>
+        </div>
+        <div class="flex h-8 items-center justify-end">
+            <a class='hover:text-emerald-300' href='./media.html'>CV</a>
+        </div>
+    </nav>
+
+    <nav id="publication_top" class='hidden md:flex w-full py-2 justify-center'>
+        <div class="flex w-3/5 py-4 px-2 bg-[#00917b] border-b-2 border-emerald-700 rounded-t-lg rounded-sm shadow-md">
+            <div class="flex grow items-center">
+                <p class='text-xl text-white leading-3 text-center font-light'>Rahul Ranjan Sinha</p>
+            </div>
+            <div class="flex justify-self-end">
+                <a class='mx-4 text-white text-md font-normal hover:text-emerald-300' href='./index.html'>About</a>
+                <a class='mx-4 text-white text-md font-normal hover:text-emerald-300'
+                    href='./research.html'>Research</a>
+                <a class='mx-4 text-blue-300 text-md font-semibold underline' href='./publication.html'>Publication</a>
+                <a class='mx-4 text-white text-md font-normal hover:text-emerald-300' href="./media/CV.pdf"
+                    download="Rahul_CV.pdf" target="_blank">CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- mobile content -->
+
+    <div class="flex md:hidden justify-center w-full">
+        <div class="leading-7 font-light text-center border-t border-black ">
+
+            <div class="justify-start">
+                <a class="flex mt-5 ml-8 underline justify-start text-blue-700 hover:text-blue-300"
+                    href='#articles'>Articles/Blogs/Op-Eds</p>
+                    <a class="flex mt-3 mb-5 ml-8 underline justify-start text-blue-700 hover:text-blue-300"
+                        href='#reports'>Reports</a>
+            </div>
+            <div id="articles" class="justify-start ml-4 border-t border-slate-300">
+                <div
+                    class="  rounded-t-lg rounded-sm w-[95%]  p-2 mt-4 bg-slate-50  border-b-2 border-slate-300 shadow-sm">
+                    <p class="text-3xl text-left pl-4 font-semibold text-slate-500">Articles/Blogs/Op-Eds</p>
+                </div>
+                <table class="mt-4 table-auto border-separate border-spacing-3">
+                    <tbody>
+                        <tr>
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="pl-4 underline  text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.findevgateway.org/blog/2023/08/agent-gender-matters-but-how-to-recruit-and-retain-women-agents">Agent
+                                    Gender Matters, but How to Recruit and Retain Women Agents?</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.findevgateway.org/blog/2021/03/women-changemakers-improve-access-water-and-sanitation">Women
+                                    As Changemakers Improve Access to Water and Sanitation</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://findevgateway.org/blog/2018/nov/three-steps-closing-india%E2%80%99s-gender-gap-digital-financial-services">Three
+                                    Steps for Closing India's Gender Gap in Digital Financial Services</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.microfinancegateway.org/blog/2018/may/grappling-india%E2%80%99s-national-biometric-based-payments-system">Grappling
+                                    with India's National Biometric-Based Payments System</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-4 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Next Billion</td>
+                            <td
+                                class="leading-5 pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://nextbillion.net/augmented-reality-financial-literacy-innovative-approach-immersive-customer-education/">Augmented
+                                    Reality for Financial Literacy: An Innovative Approach to Delivering Immersive
+                                    Customer Education</a>
+                            </td>
+                        </tr>
+
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Business World</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="http://www.businessworld.in/article/A-Social-Algorithm-Tool-Gives-Covid-19-Relief-To-India-s-Informal-Sector/15-06-2020-287336/">A
+                                    Social Algorithm Tool Gives Covid-19 Relief To India's Informal Sector </a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-4 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Medium</td>
+                            <td
+                                class="leading-5 pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://medium.com/@rbhattacharyya_52466/using-machine-and-human-intelligence-for-covid-response-three-lessons-for-future-programming-39806a9603fb">Using
+                                    Machine and Human Intelligence for COVID Response: Three lessons for future
+                                    programming</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                India Development Review</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="http://idronline.org/women-benefit-bottom-line-mfis/">Increasing the
+                                    profitability of Microfinance Institutions in India</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Policy Circle</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://www.policycircle.org/life/vaccine-hesitancy-in-rural-india/">Vaccine
+                                    hesitancy in rural areas threatens India's Covid-19 response</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Policy Circle</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://www.policycircle.org/life/women-in-farmer-producer-organisation/">The
+                                    invisible women in India's farmer producer organisations</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Grameen Foundation USA</td>
+                            <td
+                                class="pl-4 text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <div class="flex"><span class="whitespace-nowrap">Case Study:&nbsp;&nbsp; </span><a
+                                        class="underline leading-5"
+                                        href="https://grameenfoundation.org/documents/Mirjapur-Jaiv-Urja-Case-Study.pdf">Surviving
+                                        heat waves through climate resilient biofortified wheat varieties - The success
+                                        story of Mirjapur Jaiv Urja Farmers Producers Company</a></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="reports" class="justify-start ml-4 mt-4 border-t border-slate-300">
+                <div
+                    class="  rounded-t-lg rounded-sm w-[95%] p-2 mt-6 bg-slate-50  border-b-2 border-slate-300 shadow-sm">
+                    <p class="text-3xl text-left pl-4 font-semibold text-slate-500">Reports</p>
+                </div>
+                <table class="mt-4 table-auto border-separate border-spacing-3">
+                    <tbody>
+                        <tr>
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                UNCDF</td>
+                            <td
+                                class="pl-4 underline  text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://erc.undp.org/evaluation/evaluations/detail/9950">Final Evaluation
+                                    Report of Phase II of the Pacific Financial Inclusion Programme</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Grameen Foundation USA</td>
+                            <td
+                                class="leading-5 bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://grameenfoundation.org/documents/MANDI_Evaluation-Brief_Final-1.pdf">Evaluation
+                                    Brief for Final Evaluation of MANDI program funded by the Walmart Foundation</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                BMGF</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://grameenfoundation.org/partners/resources/beads-endline-report">Impact
+                                    evaluation of BEADS project in India</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Dvara Research</td>
+                            <td
+                                class="leading-5 bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.dvara.com/research/conference2021/wp-content/uploads/2022/07/Grameen-Foundation.pdf">Impact
+                                    of COVID-19 on preferences of household portfolios: Case of low-income migrant
+                                    households</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                BMGF</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://grameenfoundation.in/wp-content/uploads/2022/07/BEADS-Baseline-Study_06072022_1.pdf">Report
+                                    on BCNM Experiments Demonstrating Scale Agent Network Diagnostic Study</a>
+                            </td>
+                        </tr>
+
+                        <tr class="mb-20 ">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Grameen Foundation USA</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://grameenfoundation.org/partners/resources/womenlink-phase-ii-final-report">WomenLink
+                                    Phase II Final Report</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="border-b border-slate-300 mt-4"></div>
+            </div>
+        </div>
 
 
-  </div>
+    </div>
+    <!-- mobile content -->
+    <div class="hidden md:flex justify-center">
+        <div class="w-3/5 leading-7 font-light text-center border-t border-black ">
 
-  <div class="flex justify-center mt-4 mb-20">
-    <div class="flex items-center w-3/5 bg-[#00917b] py-6 border-b-2 border-emerald-700  rounded-b-lg rounded-sm shadow-md opacity-90">
-        <div class="flex-grow"><span class="pl-6 text-start text-white">Email - rahul.ranjan.sinha@outlook.com</span></div>
-        <div class="flex-grow"><span class="text-start text-white">Mobile : +91 985 - 385 - 8019</span></div>
-        <div class="flex-grow"><a href="#publication_top" class="pl-6 text-start underline text-white">Back to Top</a></div>
-      </div>
-  </div>
+            <div class="justify-start">
+                <a class="flex mt-5 ml-8 underline justify-start text-blue-700 hover:text-blue-300"
+                    href='#articles'>Articles/Blogs/Op-Eds</p>
+                    <a class="flex mt-3 mb-5 ml-8 underline justify-start text-blue-700 hover:text-blue-300"
+                        href='#reports'>Reports</a>
+            </div>
+            <div id="articles" class="justify-start ml-4 border-t border-slate-300">
+                <div class="  rounded-t-lg rounded-sm  p-2 mt-4 bg-slate-50  border-b-2 border-slate-300 shadow-sm">
+                    <p class="text-4xl text-left pl-4 font-semibold text-slate-500">Articles/Blogs/Op-Eds</p>
+                </div>
+                <table class="mt-4 table-auto border-separate border-spacing-3">
+                    <tbody>
+                        <tr>
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="pl-4 underline  text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.findevgateway.org/blog/2023/08/agent-gender-matters-but-how-to-recruit-and-retain-women-agents">Agent
+                                    Gender Matters, but How to Recruit and Retain Women Agents?</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.findevgateway.org/blog/2021/03/women-changemakers-improve-access-water-and-sanitation">Women
+                                    As Changemakers Improve Access to Water and Sanitation</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://findevgateway.org/blog/2018/nov/three-steps-closing-india%E2%80%99s-gender-gap-digital-financial-services">Three
+                                    Steps for Closing India's Gender Gap in Digital Financial Services</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                FinDev Gateway</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.microfinancegateway.org/blog/2018/may/grappling-india%E2%80%99s-national-biometric-based-payments-system">Grappling
+                                    with India's National Biometric-Based Payments System</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-4 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Next Billion</td>
+                            <td
+                                class="leading-5 pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://nextbillion.net/augmented-reality-financial-literacy-innovative-approach-immersive-customer-education/">Augmented
+                                    Reality for Financial Literacy: An Innovative Approach to Delivering Immersive
+                                    Customer Education</a>
+                            </td>
+                        </tr>
 
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Business World</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="http://www.businessworld.in/article/A-Social-Algorithm-Tool-Gives-Covid-19-Relief-To-India-s-Informal-Sector/15-06-2020-287336/">A
+                                    Social Algorithm Tool Gives Covid-19 Relief To India's Informal Sector </a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-4 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Medium</td>
+                            <td
+                                class="leading-5 pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://medium.com/@rbhattacharyya_52466/using-machine-and-human-intelligence-for-covid-response-three-lessons-for-future-programming-39806a9603fb">Using
+                                    Machine and Human Intelligence for COVID Response: Three lessons for future
+                                    programming</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                India Development Review</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="http://idronline.org/women-benefit-bottom-line-mfis/">Increasing the
+                                    profitability of Microfinance Institutions in India</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Policy Circle</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://www.policycircle.org/life/vaccine-hesitancy-in-rural-india/">Vaccine
+                                    hesitancy in rural areas threatens India's Covid-19 response</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Policy Circle</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://www.policycircle.org/life/women-in-farmer-producer-organisation/">The
+                                    invisible women in India's farmer producer organisations</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Grameen Foundation USA</td>
+                            <td
+                                class="pl-4 text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <div class="flex"><span class="whitespace-nowrap">Case Study:&nbsp;&nbsp; </span><a
+                                        class="underline leading-5"
+                                        href="https://grameenfoundation.org/documents/Mirjapur-Jaiv-Urja-Case-Study.pdf">Surviving
+                                        heat waves through climate resilient biofortified wheat varieties - The success
+                                        story of Mirjapur Jaiv Urja Farmers Producers Company</a></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="reports" class="justify-start ml-4 mt-4 border-t border-slate-300">
+                <div class="  rounded-t-lg rounded-sm  p-2 mt-6 bg-slate-50  border-b-2 border-slate-300 shadow-sm">
+                    <p class="text-4xl text-left pl-4 font-semibold text-slate-500">Reports</p>
+                </div>
+                <table class="mt-4 table-auto border-separate border-spacing-3">
+                    <tbody>
+                        <tr>
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                UNCDF</td>
+                            <td
+                                class="pl-4 underline  text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://erc.undp.org/evaluation/evaluations/detail/9950">Final Evaluation
+                                    Report of Phase II of the Pacific Financial Inclusion Programme</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Grameen Foundation USA</td>
+                            <td
+                                class="leading-5 bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://grameenfoundation.org/documents/MANDI_Evaluation-Brief_Final-1.pdf">Evaluation
+                                    Brief for Final Evaluation of MANDI program funded by the Walmart Foundation</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                BMGF</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a href="https://grameenfoundation.org/partners/resources/beads-endline-report">Impact
+                                    evaluation of BEADS project in India</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Dvara Research</td>
+                            <td
+                                class="leading-5 bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://www.dvara.com/research/conference2021/wp-content/uploads/2022/07/Grameen-Foundation.pdf">Impact
+                                    of COVID-19 on preferences of household portfolios: Case of low-income migrant
+                                    households</a>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                BMGF</td>
+                            <td
+                                class="pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://grameenfoundation.in/wp-content/uploads/2022/07/BEADS-Baseline-Study_06072022_1.pdf">Report
+                                    on BCNM Experiments Demonstrating Scale Agent Network Diagnostic Study</a>
+                            </td>
+                        </tr>
+
+                        <tr class="mb-20 ">
+                            <td
+                                class=" flex items-center text-center justify-center rounded-md bg-blue-50 px-2 py-1 mt-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10  p-2 border-b dark:bg-gray-800 dark:border-gray-700">
+                                Grameen Foundation USA</td>
+                            <td
+                                class="bg-slate-100 rounded-md pl-4 underline text-left text-gray-500 hover:text-blue-300  dark:bg-gray-800 dark:border-gray-700">
+                                <a
+                                    href="https://grameenfoundation.org/partners/resources/womenlink-phase-ii-final-report">WomenLink
+                                    Phase II Final Report</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="border-b border-slate-300 mt-4"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="hidden md:flex justify-center mt-4 mb-20">
+        <div
+            class="flex items-center w-3/5 bg-[#00917b] py-4 border-b-2 border-emerald-700  rounded-b-lg rounded-sm shadow-md opacity-90">
+            <div class="flex-grow"><span class="pl-6 text-start text-white">Email -
+                    rahul.ranjan.sinha@outlook.com</span></div>
+            <div class="flex-grow"><span class="text-start text-white">Mobile : +91 985 - 385 - 8019</span></div>
+            <div class="flex-grow"><a href="#publication_top" class="pl-6 text-start underline text-white">Back to
+                    Top</a></div>
+        </div>
+    </div>
+
+    <!-- Mobile Footer -->
+    <div class="flex md:hidden justify-end pt-2 pb-20 pr-10">
+        <button class="flex md:hidden items-center justify-center bg-slate-300 w-14 h-14 rounded-full"
+            onclick="scrollToContent()">
+            <!-- <a href="#content"> -->
+            <i class='bx bxs-upvote'></i>
+            <!-- </a> -->
+        </button>
+    </div>
+
+    <div style="bottom: -5px;" class="fixed md:hidden w-full pt-2 justify-center">
+        <div class="items-center bg-[#00917b] border-b-2 py-2 border-emerald-700  rounded-t-lg rounded-sm shadow-md ">
+            <div class=""><span class="pl-6 text-start text-white">Email - rahul.ranjan.sinha@outlook.com</span></div>
+            <div class=""><span class="pl-6 text-start text-white">Mobile : +91 985 - 385 - 8019</span></div>
+        </div>
+    </div>
+    <!-- Mobile Footer -->
+
+    <script src="./js/script.js" defer></script>
 </body>
+
 </html>
